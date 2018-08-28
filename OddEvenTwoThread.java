@@ -43,7 +43,7 @@ class TaskEvenOdd implements Runnable {
 	@Override
 	public void run() {
 		int i = isEven ? 2 : 1;
-		for(; i <= 10; i++)
+		for(; i <= 10; i+=2)
 		{
 			if(isEven)
 				mPrint.printEven(i);
